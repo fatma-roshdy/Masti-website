@@ -1,0 +1,131 @@
+body{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    .primary_color{
+        color:$primary_color;   
+    }
+    .secondery_color{
+        color:$secondery_color;
+    }
+    .center_text{
+        text-align: center;
+    }
+    .around_padding{
+        padding: 30px;
+    }
+    .noPadding-top{
+        padding-top: 0px;
+    }
+    .red{
+        color: $red;
+    }
+    .logo{
+        img{
+            width: 200px
+        }
+    }
+    .active{
+        color:$primary_color;
+    }
+    .color_white{
+        color: white;
+    }
+}
+.header{
+    font-size:1rem;
+     color: $secondery_color;
+     @include border-bottom(5px,solid,$shadow_color);
+}
+
+
+main{
+    header{
+        // margin: 0 auto;
+        
+       nav{
+        
+        text-align: right;
+        margin: auto;
+           &:active{
+           color:red;
+       }
+        } 
+
+    }
+}
+
+    
+    .main_slider{
+        .center {
+            @extend %overlayCenter;
+          }
+
+        .arrow{
+            font-size: 50px;
+        }
+        .background_none{
+            background-image:none
+        }
+    }
+    .main_card{
+        background-color: rgb(206, 205, 205);
+    }
+    .Recent_project{
+        h2{
+            .h2_border{
+                @include border-bottom(3px,solid,$primary_color);
+                width: 5%;
+                padding-top:5px;
+            } 
+           
+        }
+        
+    }
+    .rate_number{
+         background-color: $primary_color;
+         
+        .h2_border{
+            @include border-bottom(3px,solid,white);
+            padding-top:5px;
+            margin-right: 110px;
+            margin-left: 110px;
+        } 
+        .rate_text{
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .form_blog{
+        padding: 20px;
+        .h2_border{
+            @include border-bottom(3px,solid,$primary_color);
+            width: 5%;
+            padding-top:5px;
+        } 
+        .align-left{
+            @extend  %align-left;
+        }
+    }
+   .help{
+       padding: 20px;
+       background-color: $primary_color;
+       color: white;
+       .help_padding{
+           padding: 10px;
+       }
+   }
+   
+
+
+footer{
+    p{
+         color: white;
+    }
+     @include bg_color($secondery_color);
+    .black_bg{
+        @include bg_color (black);
+    }
+    
+}

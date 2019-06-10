@@ -1,0 +1,127 @@
+.main_slider .center {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+.form_blog .align-left {
+  text-align: left; }
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+  body .primary_color {
+    color: #008aab; }
+  body .secondery_color {
+    color: #353535; }
+  body .center_text {
+    text-align: center; }
+  body .around_padding {
+    padding: 30px; }
+  body .noPadding-top {
+    padding-top: 0px; }
+  body .red {
+    color: red; }
+  body .logo img {
+    width: 200px; }
+  body .active {
+    color: #008aab; }
+  body .color_white {
+    color: white; }
+
+.header {
+  font-size: 1rem;
+  color: #353535;
+  border-bottom: 5px solid #ede8e8; }
+
+main header nav {
+  text-align: right;
+  margin: auto; }
+  main header nav:active {
+    color: red; }
+
+.main_slider .arrow {
+  font-size: 50px; }
+
+.main_slider .background_none {
+  background-image: none; }
+
+.main_card {
+  background-color: #cecdcd; }
+
+.Recent_project h2 .h2_border {
+  border-bottom: 3px solid #008aab;
+  width: 5%;
+  padding-top: 5px; }
+
+.rate_number {
+  background-color: #008aab; }
+  .rate_number .h2_border {
+    border-bottom: 3px solid white;
+    padding-top: 5px;
+    margin-right: 110px;
+    margin-left: 110px; }
+  .rate_number .rate_text {
+    color: white;
+    text-align: center; }
+
+.form_blog {
+  padding: 20px; }
+  .form_blog .h2_border {
+    border-bottom: 3px solid #008aab;
+    width: 5%;
+    padding-top: 5px; }
+
+.help {
+  padding: 20px;
+  background-color: #008aab;
+  color: white; }
+  .help .help_padding {
+    padding: 10px; }
+
+footer {
+  background-color: #353535; }
+  footer p {
+    color: white; }
+  footer .black_bg {
+    background-color: black; }
+
+body .btn-primary {
+  background-color: #008aab; }
+
+body .card {
+  border: none; }
+
+body .padding-aside {
+  padding-top: 15px; }
+
+body .h2_border {
+  border-bottom: 3px solid #008aab;
+  width: 5%;
+  padding-top: 5px; }
+
+body .page_sectio {
+  background-color: #008aab; }
+
+body form .textarea {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+
+body form .padding {
+  padding: 10px; }
+
+body .map {
+  width: 100%;
+  height: 100rem; }

@@ -1,0 +1,39 @@
+
+
+@mixin border-bottom($width,$style,$color){
+    border-bottom: $width $style $color;
+}
+%overlayCenter  {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+} 
+%align-left{
+    text-align: left;
+}
+@mixin bg_color ($color){
+    background-color: $color
+}
+%primary_color{
+    color:$primary_color;   
+}
+%secondery_color{
+    color:$secondery_color;
+}
+%center_text{
+    text-align: center;
+}
+%around_padding{
+    padding: 30px;
+}
+%noPadding-top{
+    padding-top: 0px;
+}
+%red{
+    color: $red;
+}
+@mixin text_align ($position){
+    text-align:$position;
+}
